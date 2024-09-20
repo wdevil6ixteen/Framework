@@ -101,7 +101,7 @@ model=Corolla&make=Toyota&year=2020
 Первым шагом выполняю отправку запроса с методом пост на нужный URL с моим именем и фамилией в качестве заголовка.
 Успешно выполненный запрос предоставил следующий ответ от сервера:
 
- ![1](https://github.com/wdevil6ixteen/Framework/blob/main/1.jpg)
+![2](https://github.com/wdevil6ixteen/Framework/blob/main/1.jpg)
 
 Далее, я произвожу PUT запрос с телом запроса моего возраста.
 
