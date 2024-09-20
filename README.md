@@ -19,25 +19,25 @@
 
    -  Для отправки запроса был использован метод POST . В инструментах разработчика браузера во вкладке Network , в разделе Headers ( Request Method ) видим что метод POST  
 
-      ![1.2](https://github.com/Framework/blob/main/1.2.jpg)
+      ![1.2](https://github.com/wdevil6ixteen/Framework/blob/main/1.2.jpg)
 
  - Какие заголовки были отправлены в запросе?
 
     - При отправке в запрос был использован заголовок text/plain;charset=UTF-8 находим в разделе Headers - Response Headers - Content Type(text/plain;charset=UTF-8) - этот заголовок означает , что содержимое сообщения представлено в виде обычного текста , и интерпертируются как текст закодированный в UTF-8  
      
-     ![1.3](/photo/1.3.jpg)
+      ![1.3](https://github.com/wdevil6ixteen/Framework/blob/main/1.3.jpg)
 
   - Какие параметры были отправлены в запросе?
 
     - Обращаем внимание на раздел Payload . Там мы увидим отправленные нами данные, такие как username и password
   
-     ![1.4](/photo/1.4.jpg)
+     ![1.4](https://github.com/wdevil6ixteen/Framework/blob/main/1.4.jpg)
    
    - Какой код состояния был возвращен сервером?
 
      - В разделе Headers обратим внимание на Status Code и значение . В первом случае введенния правильного значения отображается - 200 OK , а в случае не правильного входа - 401 Unauthorized
       
-      ![1.5](/photo/1.5.jpg)
+      ![1.5](https://github.com/wdevil6ixteen/Framework/blob/main/1.5.jpg)
 
     - Какие заголовки были отправлены в ответе?  
 
@@ -47,7 +47,7 @@
 
            -   Вместо 401 , код выявил знечение 200 OK
 
-             ![1.6](/photo/1.6.jpg)
+              ![1.6](https://github.com/wdevil6ixteen/Framework/blob/main/1.6.jpg)
 
     ## Задание №2. Составление HTTP-запросов
 
@@ -101,15 +101,15 @@ model=Corolla&make=Toyota&year=2020
 Первым шагом выполняю отправку запроса с методом пост на нужный URL с моим именем и фамилией в качестве заголовка.
 Успешно выполненный запрос предоставил следующий ответ от сервера:
 
-![1](/photo/1.jpg)
+ ![1](https://github.com/wdevil6ixteen/Framework/blob/main/1.jpg)
 
 Далее, я произвожу PUT запрос с телом запроса моего возраста.
 
-![2](/photo/2.jpg)
+![2](https://github.com/wdevil6ixteen/Framework/blob/main/2.jpg)
 
 Последним я произвожу GET запрос и получаю финальный секрет
 
-![3](/photo/3.jpg)
+![3](https://github.com/wdevil6ixteen/Framework/blob/main/3.jpg)
 
 Секретный код : OSMcAggoDTc5DwAdCERGe0FCV2dTSH1Y
 
